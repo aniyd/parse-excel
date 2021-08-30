@@ -1,0 +1,31 @@
+{
+    "name": "parse-excel",
+    "version": "1.0.0",
+    "description": "This is the module to validate the condition and create new sheet from the existing one.",
+    "main": "dist/index.js",
+    "scripts": {
+        "build": "npm run build-ts",
+        "build-ts": "tsc",
+        "start": "npm run build && npm run serve",
+        "serve": "node dist/index.js",
+        "test": "echo \"Error: no test specified\" && exit 1"
+    },
+    "repository": {
+        "type": "git",
+        "url": "git+https://github.com/aniyd/parse-excel.git"
+    },
+    "author": "Anirudh Kumar",
+    "license": "ISC",
+    "bugs": {
+        "url": "https://github.com/aniyd/parse-excel/issues"
+    },
+    "homepage": "https://github.com/aniyd/parse-excel#readme",
+    "dependencies": {
+        "xlsx": "^0.17.1"
+    },
+    "devDependencies": {
+        "@types/node": "^16.7.6",
+        "tslint": "^6.1.3",
+        "typescript": "^4.3.4"
+    }
+}
